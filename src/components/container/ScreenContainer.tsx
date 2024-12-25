@@ -6,7 +6,7 @@ type Props = {
 
 function ScreenContainer({ children }: Props) {
     return (
-        <main className='relative sm:w-[500px] w-full h-full'>
+        <main className='sm:w-[500px] w-full h-screen bg-white relative mx-auto overflow-y-auto'>
             {children}
         </main>
     )
